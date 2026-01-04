@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Building site..."
+hugo
+
+if [ $? -ne 0 ]; then
+    echo "Error: Hugo build failed"
+    exit 1
+fi
+
+echo "Deploying to tardisproject.uk..."
+rsync -avz --delete public/ YOUR_USERNAME@tardisproject.uk:~/www/
+
+if [ $? -eq 0 ]; then
+    echo ""
+    echo "✓ Deployment complete!"
+    echo "Visit https://<YOUR_USERNAME>.tardis.ac"
+else
+    echo "Error: Deployment failed"
+    exit 1
+fi

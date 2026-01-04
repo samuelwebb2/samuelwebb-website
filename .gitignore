@@ -4,7 +4,7 @@ resources/_gen/
 .hugo_build.lock
 
 # Deployment script with credentials (if you hardcode them)
-# deploy.sh  # Uncomment if you add credentials directly to the script
+deploy.sh
 
 # OS files
 .DS_Store
@@ -44,4 +44,3 @@ yarn.lock
 
 # Hugo cache
 .hugo_build.lock
-deploy.sh

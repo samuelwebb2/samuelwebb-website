@@ -1,0 +1,26 @@
+baseURL = 'https://samuelwebb.co.uk/'
+languageCode = 'en-gb'
+title = 'Samuel Webb'
+theme = 'PaperMod'  # or your chosen theme
+
+[params]
+  description = "Projects and writings by Samuel Webb"
+  author = "Samuel Webb"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4

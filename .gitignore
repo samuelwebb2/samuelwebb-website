@@ -44,3 +44,4 @@ yarn.lock
 
 # Hugo cache
 .hugo_build.lock
+deploy.sh

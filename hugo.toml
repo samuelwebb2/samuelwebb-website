@@ -16,10 +16,10 @@ theme = 'PaperMod'  # or your chosen theme
     name = "Posts"
     url = "/posts/"
     weight = 2
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 3
+  # [[menu.main]]
+  #   name = "Projects"
+  #   url = "/projects/"
+  #   weight = 3
   [[menu.main]]
     name = "About"
     url = "/about/"
